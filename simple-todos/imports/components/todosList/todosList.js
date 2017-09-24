@@ -20,7 +20,7 @@ class TodosListCtrl {
           };
         }
 
-        return Tasks.find(selector, 
+        return Tasks.find(selector,
           { sort: { createdAt: -1 }}
         );
       },
